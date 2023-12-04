@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+margin-top: 23px;
+    font-family: var(--font1);
+    height: 74px;
+   /* background-color:red ; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    font-size: 40px;
+    display: flex;
+}
+.nav-left span {
+    font-size: 35px;
+    padding-top: 2px;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 20px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-left ul li a:hover {
+    color: brown;
+    font-weight: bolder;
+}
+
+.nav-right {
+    
+}
+
+.content {
+ display: flex;
+ height: 395px;
+/* background-color :rgb(147, 147, 231);*/
+ margin-top: 32px;
+ padding: 9px;
+position: relative;
+}
+.content::after{
+    content: "";
+    background-image:url("../images/img\ -\ Copy.jpg");
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.35;
+    border-radius: 12px;
+}
+
+.content-left {
+    font-family: sans-serif;
+    /* width: 50%;*/
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    justify-content: center;
+    padding: 49px;
+}
+
+.content-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    height: 155px;
+    border: 3px solid black;
+    border-radius: 800px;
+}
+
+.home-articles{
+ padding: 18px;
+ background-color:azure;*/
+ margin-top: 23px;
+ 
+}
+.home-article{
+    display: flex;
+    margin: 25px;
+}
+
+.home-article img{
+    width: 300px;
+}
+
+.home-article-content{
+    align-self:center;
+    padding: 25px;
+}
+
+.home-article-content a {
+    text-decoration: none;
+    
+}
+/*.home-articles{
+    
+}*/
+
+.footer {
+ height: 50px;
+ background-color: lavender; 
+ display : flex;
+ align-items: center;
+ justify-content: center;
+ color: black;
+ flex-direction: column;
+}
+
+.footer a{
+    color:blue;
+}
